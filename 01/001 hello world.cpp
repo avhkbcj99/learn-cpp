@@ -15,6 +15,9 @@ int main() {
 //    HOURS++;
     age++;
     cout << "age = " << age << endl;
-
+    age++;
+    cout << "age = " << age << endl;
+    age++;
+    cout << "age = " << age << endl;
     return 0;
 }
