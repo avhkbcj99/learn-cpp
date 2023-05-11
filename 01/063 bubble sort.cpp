@@ -6,11 +6,7 @@
 using namespace std;
 
 
-
-
-
-
-void swapp1(int *array, int len){
+void swapp1(int *array, int len) {
     int *p = array;
     for (int i = 0; i < len - 1; i++) {
         for (int j = 0; j < len - 1; j++) {
@@ -23,7 +19,7 @@ void swapp1(int *array, int len){
     }
 }
 
-void swapp2(int array[], int len){
+void swapp2(int array[], int len) {
     int *p = array;
     for (int i = 0; i < len - 1; i++) {
         for (int j = 0; j < len - 1; j++) {
