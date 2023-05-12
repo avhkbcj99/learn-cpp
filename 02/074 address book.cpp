@@ -125,6 +125,12 @@ void flushUser(UserAddress *arr) {
     *arr = userAddressArray;
 }
 
+//void flushUser(UserAddress *arr) {
+//    看似清空了，实际上没有清空，只是把count置为0了
+//    数据还在，只是无法访问了
+//    arr->count = 0;
+//}
+
 int main() {
     UserAddress userAddressArray;
     while (true) {
